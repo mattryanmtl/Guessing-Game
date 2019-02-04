@@ -18,4 +18,4 @@ public class RandomNumber {
     public int getCurrentRandomNumber() {
         return currentRandomNumber;
     }
-}
+}//END class
