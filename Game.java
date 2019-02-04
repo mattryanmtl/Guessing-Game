@@ -84,7 +84,7 @@ public class Game {
         return (short) rNumber.generateRandomNumber();
     }//END GameSetup
 
-    //This Method controls all the game interactions. I provides tips according to the guess given
+    //controls all the game interactions.
     public void PlayGame(short inNumber) {
 
         boolean isRight = false;                    //control if the guess is right
@@ -130,7 +130,7 @@ public class Game {
             }
         }
 
-        //game is over. Stringify Secret Number to reveal on terminal
+        //game is over. Stringify Secret Number
         String myNumber = Integer.toString(rNumber.getCurrentRandomNumber());
 
         System.out.println();
