@@ -48,4 +48,4 @@ public final class MyRandomNumber extends RandomNumber {
         return currentRandomNumber;
     }
 
-}
+}//END class
